@@ -2,4 +2,4 @@
 
 Link under Facebook, Twitter, Insta links
 
-Strange comment in HTML near bird link
+Interesting comment in HTML near bird link
