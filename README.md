@@ -8,4 +8,4 @@ Found 5 potential exploits
 - [x] [page redirect](./page-redirect-link/README.md)
 - [ ] [member search](./member-search/README.md)
 - [ ] [image search](./image-search/README.md)
-- [ ] [born to sec](./born-to-sec/README.md)
+- [x] [born to sec](./born-to-sec/README.md)
