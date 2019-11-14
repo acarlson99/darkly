@@ -1,4 +1,4 @@
-# Page Unsafe Redirect
+# Unsafe Redirect
 
 Redirects at the bottom of the page send to `index.php?page=redirect&site=facebook`
 

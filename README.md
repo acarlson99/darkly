@@ -4,11 +4,11 @@
 
 Found 8 potential exploits
 
-- [x] [sign guestbook](./sign-guestbook/README.md)
-- [x] [page redirect](./page-redirect-link/README.md)
-- [x] [member search](./member-search/README.md)
-- [x] [image search](./image-search/README.md)
+- [x] [sign guestbook](./feedback/README.md)
+- [x] [page redirect](./redirect/README.md)
+- [x] [member search](./member/README.md)
+- [x] [image search](./searchimg/README.md)
 - [x] [born to sec](./born-to-sec/README.md)
-- [x] [survey page](./survey-page/README.md)
+- [x] [survey page](./survey/README.md)
 - [x] [admin](./admin/README.md)
-- [x] [recover password](./recover-password/README.md)
+- [x] [recover password](./recover/README.md)
