@@ -2,7 +2,7 @@
 
 ## Exploits
 
-Found 8 potential exploits
+Found 11 potential exploits
 
 - [x] [sign guestbook](./feedback/README.md)
 - [x] [page redirect](./redirect/README.md)
@@ -12,3 +12,6 @@ Found 8 potential exploits
 - [x] [survey page](./survey/README.md)
 - [x] [admin](./admin/README.md)
 - [x] [recover password](./recover/README.md)
+- [x] [cookies](./cookies/README.md)
+- [ ] [signin](./signin/README.md)
+- [ ] [upload](./upload/README.md)
