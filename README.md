@@ -13,5 +13,5 @@ Found 11 potential exploits
 - [x] [admin](./admin/README.md)
 - [x] [recover password](./recover/README.md)
 - [x] [cookies](./cookies/README.md)
-- [ ] [signin](./signin/README.md)
+- [x] [signin](./signin/README.md)
 - [ ] [upload](./upload/README.md)
