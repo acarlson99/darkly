@@ -9,3 +9,11 @@ bash bruteforce.sh root ~/Downloads/rockyou.txt
 ```
 
 After a bit this will find the password
+
+## Risk
+
+Anyone can do this and become root
+
+## Fix
+
+Just use better passwords

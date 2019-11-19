@@ -1,5 +1,7 @@
 # Media
 
+http://192.168.56.101/index.php?page=media&src=nsa
+
 `src` argument inserted directly into `data` field of `object` tag
 
 ```html
@@ -24,3 +26,13 @@ Setting a few more options to be run allows us to embed any html into the webpag
 ```html
 http://192.168.56.101/?page=media&src=data:text/html;base64,PHNjcmlwdD5hbGVydCgiV0hFRSIpPC9zY3JpcHQ%2BCg%3D%3D
 ```
+
+## Risk
+
+User can execute arbitrary code on client machine
+
+## Fix
+
+Don't display exactly what the user gives you
+
+Encode it or use a table of expected values

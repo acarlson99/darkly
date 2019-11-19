@@ -1,6 +1,6 @@
 # Image Search
 
-# Image Search
+http://192.168.56.101/index.php?page=searchimg
 
 Something similar to member-search I think
 
@@ -61,3 +61,11 @@ Url : Hack me ?
 ```
 
 Run that through a google search and you get `albatroz`
+
+## Risk
+
+User could access sensitive information
+
+## Fix
+
+Validate data received from request

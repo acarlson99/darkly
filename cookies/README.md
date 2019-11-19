@@ -10,3 +10,11 @@ b326b5062b2f0e69046810717534cb09  -
 ```
 
 Set cookie value to this, reload, and get the flag
+
+## Risk
+
+Any user can become admin
+
+## Fix
+
+Use proper tokens to validate user privileges rather than a hashed boolean

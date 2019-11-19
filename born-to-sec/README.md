@@ -1,6 +1,6 @@
 # Born to Sec
 
-Link under Facebook, Twitter, Insta links
+http://192.168.56.101/index.php?page=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c
 
 Interesting comments in HTML near bird link
 
@@ -31,3 +31,11 @@ curl -v \
 ```
 
 Sure enough the flag is sent back
+
+## Risk
+
+This may allow a user with invalid credentials to access a disallowed page
+
+## Fix
+
+Use a proper login page to handle logins

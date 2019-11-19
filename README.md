@@ -2,17 +2,19 @@
 
 ## Exploits
 
-- [x] [sign guestbook](./feedback/README.md)
-- [x] [social media](./redirect/README.md)
-- [x] [member search](./member/README.md)
-- [x] [image search](./searchimg/README.md)
-- [x] [born to sec](./born-to-sec/README.md)
-- [x] [survey page](./survey/README.md)
-- [x] [admin](./admin/README.md)
-- [x] [recover password](./recover/README.md)
-- [x] [cookies](./cookies/README.md)
-- [x] [signin](./signin/README.md)
-- [x] [upload](./upload/README.md)
-- [x] [hidden](./hidden/README.md)
-- [x] [page redirect](./page/README.md)
-- [x] [media](./media/README.md)
+| exploit                                           | type                                                                                                                  |
+| ------------------------------------------------- | -                                                                                                                     |
+| [feedback](./feedback/README.md)                  | bad argument validation, [XSS](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS))                            |
+| [social media redirect](./redirect/README.md)     | [unsafe redirect](https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html) |
+| [member search](./member/README.md)               | [SQL injection](https://www.owasp.org/index.php/SQL_Injection)                                                        |
+| [image search](./searchimg/README.md)             | [SQL injection](https://www.owasp.org/index.php/SQL_Injection)                                                        |
+| [born to sec](./born-to-sec/README.md)            | header spoofing                                                                                                       |
+| [survey](./survey/README.md)                      | form validation                                                                                                       |
+| [admin](./admin/README.md)                        | [web scraping](https://en.wikipedia.org/wiki/Web_scraping)                                                            |
+| [recover password](./recover/README.md)           | hard-coded unvalidated email                                                                                          |
+| [cookies](./cookies/README.md)                    | [cookie manipulation](https://portswigger.net/kb/issues/00500b02_cookie-manipulation-stored-dom-based)                |
+| [signin](./signin/README.md)                      | [password brute forcing](https://en.wikipedia.org/wiki/Brute-force_attack)                                            |
+| [upload](./upload/README.md)                      | [mime type spoofing](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types)                     |
+| [hidden](./hidden/README.md)                      | [web scraping](https://en.wikipedia.org/wiki/Web_scraping) for info                                                   |
+| [page redirect](./page/README.md)                 | [unsafe redirect](https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html) |
+| [media](./media/README.md)                        | [XSS](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS))                                                     |

@@ -1,5 +1,7 @@
 # Member Search
 
+http://192.168.56.101/index.php?page=member
+
 Looks like some sort of SQL injection
 
 Entering `1 or 1` in the search field shows (I assume) all users in database:
@@ -85,3 +87,11 @@ Surname : 5ff9d0165b4f92b14994e5c685cdce28
 ```
 
 Pasting that hash into Google gives you `FortyTwo`
+
+## Risk
+
+User could access sensitive information
+
+## Fix
+
+Validate data received from request
