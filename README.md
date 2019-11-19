@@ -2,8 +2,6 @@
 
 ## Exploits
 
-Found 13 potential exploits
-
 - [x] [sign guestbook](./feedback/README.md)
 - [x] [social media](./redirect/README.md)
 - [x] [member search](./member/README.md)
@@ -17,3 +15,4 @@ Found 13 potential exploits
 - [x] [upload](./upload/README.md)
 - [x] [hidden](./hidden/README.md)
 - [x] [page redirect](./page/README.md)
+- [x] [media](./media/README.md)
