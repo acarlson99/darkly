@@ -23,3 +23,9 @@ User could access files on host machine
 Don't use the raw value sent by the server
 
 Validate it somehow and/or have a few preset variables that are valid
+
+## Note
+
+This is terribly set up.  It seems to be looking for exactly `<script>alert`
+
+Sending `<script>print("WHEE")</script>` runs the javascript, but does not print the flag

@@ -1,4 +1,4 @@
-# Admin page
+# Admin Page
 
 http://192.168.56.101/admin/
 

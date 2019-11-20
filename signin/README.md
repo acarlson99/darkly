@@ -1,4 +1,6 @@
-# Sign in
+# Signin
+
+http://192.168.56.101/index.php?page=signin
 
 Tried lots of SQL injection stuff on username/password
 
@@ -16,4 +18,8 @@ Anyone can do this and become root
 
 ## Fix
 
-Just use better passwords
+Better passwords
+
+Brute force detection tools
+
+Captcha

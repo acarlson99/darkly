@@ -1,10 +1,12 @@
-# File upload
+# File Upload
 
 http://192.168.56.101/index.php?page=upload
 
 Upload page is not accepting any file that is not a jpg
 
 Checking against Content-Type field in request
+
+Running `nikto -C all -host http://192.168.56.101` shows us that `The X-Content-Type-Options header is not set`
 
 If Content-Type is set manually to `image/jpg` the user is able to upload arbitrary files
 
@@ -21,3 +23,5 @@ Allows anyone to upload nearly any file
 Check magic numbers or have some other way of validating the input file
 
 And never EVER run/evaluate a file submitted by the user
+
+Set X-Content-Type-Options header
