@@ -1,5 +1,7 @@
 # Darkly
 
+This expects the server to be located at `192.168.56.101`
+
 ## Exploits
 
 | exploit                                       | type                                                                                                                                |
