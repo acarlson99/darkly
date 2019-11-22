@@ -23,7 +23,7 @@ wget -e robots=off -r -nH --no-parent --reject="index.html*" 'http://192.168.56.
 Enumerate directories to find the file without condescending French
 
 ```
-$ find . -type f -name '*README' -exec grep -v 'Demande à ton voisin du dessous' {} ';' | grep -v "Non ce n'est toujours pas bon ..." | grep -v "Tu veux de l'aide ? Moi aussi !" | grep -v "Toujours pas tu vas craquer non ?" | grep -v "Demande à ton voisin du dessus" | grep -v "Demande à ton voisin de droite" | grep -v 'Demande à ton voisin de gauche'
+$ find . -type f -name '*README' -exec grep -v ' ' {} ';'
 99dde1d35d1fdd283924d84e6d9f1d820
 ```
 

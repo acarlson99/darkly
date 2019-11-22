@@ -36,3 +36,9 @@ User can execute arbitrary code on client machine
 Don't display exactly what the user gives you
 
 Encode it or use a table of expected values
+
+## Note
+
+This is terribly set up.  It seems to be looking for exactly `<script>alert`
+
+Sending `<script>print("WHEE")</script>` runs the javascript, but does not print the flag
